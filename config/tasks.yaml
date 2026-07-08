@@ -1,0 +1,29 @@
+market_research:
+  description: >
+    Conduct comprehensive research on current marketing trends, competitor campaigns, and popular hashtags relevant to a tech startup launching a new SaaS product. Provide actionable insights and key themes to focus on for the upcoming week.
+  expected_output: >
+    A markdown document detailing top 3 industry trends, 3 competitor insights, and a list of 10 relevant hashtags to target.
+
+content_strategy:
+  description: >
+    Using the market research report, develop a 7-day social media content calendar. Ensure a mix of educational posts, product highlights, and community engagement. The posts should target B2B professionals.
+  expected_output: >
+    A detailed 7-day calendar outlining the theme, objective, and target audience for each day's post.
+
+visual_content_creation:
+  description: >
+    Based on the 7-day content strategy, generate detailed visual descriptions for each post. These descriptions will be used by our design team or an AI image generator to create the final graphics.
+  expected_output: >
+    A markdown document with 7 highly detailed image generation prompts or design briefs corresponding to each day's post.
+
+copywriting:
+  description: >
+    Using the content strategy and the visual descriptions, write the final copy (captions) for all 7 posts. Ensure the tone is professional, innovative, and educational. Include relevant calls-to-action (CTAs) and the hashtags identified in the research phase.
+  expected_output: >
+    A markdown document containing the final, ready-to-publish captions for all 7 posts, clearly labeled by day.
+
+report_final_content_strategy:
+  description: >
+    Review all the generated materials (research, strategy, visual descriptions, and copy) and compile them into a single, cohesive, final marketing plan document for the week.
+  expected_output: >
+    A single Markdown file named 'final-content-strategy.md' that cleanly presents the entire 7-day marketing plan, including the research summary, daily themes, visual prompts, and final copy.
