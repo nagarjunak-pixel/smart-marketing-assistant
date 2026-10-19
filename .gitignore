@@ -7,3 +7,7 @@ secrets.json
 service-account*.json
 venv/
 __pycache__/
+
+# Run output and machine-specific start-up files - never commit (added 2026-10-19)
+*.log
+*.plist
